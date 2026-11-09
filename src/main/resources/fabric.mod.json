@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "zombieiron",
+  "version": "${version}",
+  "name": "Zombie Iron",
+  "description": "Zombies drop iron ingots much more often.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.zombieiron.ZombieIron"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
